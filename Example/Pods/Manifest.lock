@@ -1,5 +1,7 @@
 PODS:
-  - WinPodLibrary (0.1.0)
+  - mylogin (1.1.0)
+  - WinPodLibrary (1.2.0):
+    - mylogin
 
 DEPENDENCIES:
   - WinPodLibrary (from `../`)
@@ -9,7 +11,8 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  WinPodLibrary: b9aeb2615884285cbe6f0dbbd407af0ae0387e81
+  mylogin: 72c96c934d8b5196db146373b54e91be2029ef10
+  WinPodLibrary: ba47e2a2e9aa9ac68578d5a150a691d8ca00625c
 
 PODFILE CHECKSUM: f2182bedf914d7fa0590da99a992eb23cff50309
 

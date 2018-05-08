@@ -353,10 +353,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-WinPodLibrary_Example/Pods-WinPodLibrary_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/WinPodLibrary/WinPodLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/mylogin/mylogin.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WinPodLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/mylogin.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

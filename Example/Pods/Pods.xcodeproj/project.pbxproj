@@ -7,57 +7,89 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		05981DEB235CE73DB971C4EC6B39E65D /* WinPodLibrary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CCF2B2DADC79C8248EE444868B3616A0 /* WinPodLibrary-dummy.m */; };
 		15B4E838ED55172E81EF042D43A85788 /* Pods-WinPodLibrary_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E8031D9C3183089ABE07AAF0DBE6997A /* Pods-WinPodLibrary_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19BBD14120A2555900C0DD86 /* EventService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BBD14020A2555900C0DD86 /* EventService.swift */; };
+		1C1C9B626A570BA37C51164B38CFE0F0 /* WinPodLibrary-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BDF8A38CC175E1CF9F280C830EA4FD6 /* WinPodLibrary-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1DFAC38FFA1C49AE77E82ECE34BDBAF0 /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F120A6B9C0E4BBF825E62CB117988E26 /* LoginService.swift */; };
 		28D06BA405BFFFD896E98EAA781F70F1 /* Pods-WinPodLibrary_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F58FA178F1F104D3FF8FEC2C95B43BF0 /* Pods-WinPodLibrary_Tests-dummy.m */; };
-		39D2C62178FC7FA49699916CDE4FBA3E /* Pods-WinPodLibrary_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F4C2128D9CF1A8F04395CC8CD5BF1AF /* Pods-WinPodLibrary_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4FD2ECB5877463697B53E1913AFB1759 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		6AC7918B46CAD5CE53BFB038704B12B5 /* WinPodLibrary-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BDF8A38CC175E1CF9F280C830EA4FD6 /* WinPodLibrary-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6B6D95C574BF351FB81E8E19B4FC3EE4 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A360DFC1528BD48BABC695CCE732CC9 /* ReplaceMe.swift */; };
-		B791D6D237067B19F98E960D2F59CB0F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		D6419403E219EA07B242B8D9A8B8CB2A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		E9D879A9A830FAB7DCF19939F544AAC7 /* Pods-WinPodLibrary_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E66FA08DF3043A980E88B51108DFA0 /* Pods-WinPodLibrary_Example-dummy.m */; };
+		564AB091127350D32A786DA02858779B /* mylogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EDBBD87F4E23EE80BA7E69D210BD3F6 /* mylogin.framework */; };
+		6CED0017225F81CDB5E3607E748D3AF7 /* Pods-WinPodLibrary_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F4C2128D9CF1A8F04395CC8CD5BF1AF /* Pods-WinPodLibrary_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86A39B86A4648A54F49FD4D199B0C990 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 589B2F259345BEA8CC58CC9E253C3B5E /* Foundation.framework */; };
+		8D79C62804F340927B7279EB19EDB9A6 /* WinPodLibrary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CCF2B2DADC79C8248EE444868B3616A0 /* WinPodLibrary-dummy.m */; };
+		A8ED818BD34221B9F528BD16FF3595BD /* mylogin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 895A2AEDAF9D3D01515C8D30BBA03DBB /* mylogin-dummy.m */; };
+		A9A387E93A0BA7A62480C7F52D1A4E8A /* Pods-WinPodLibrary_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E66FA08DF3043A980E88B51108DFA0 /* Pods-WinPodLibrary_Example-dummy.m */; };
+		B791D6D237067B19F98E960D2F59CB0F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 589B2F259345BEA8CC58CC9E253C3B5E /* Foundation.framework */; };
+		BB0868C2F53E435A1B13A21C4B121174 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A360DFC1528BD48BABC695CCE732CC9 /* ReplaceMe.swift */; };
+		C3051E396DB118BBCEE3AED1F0A4075A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 589B2F259345BEA8CC58CC9E253C3B5E /* Foundation.framework */; };
+		DAA749546256007AD5024EC1127739DD /* mylogin-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 03756A3CE351C8A7A5C166E56CA1EE4F /* mylogin-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5915D1C6137238FEBD807DE3ADA5786 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = A129D58207842CC4A930EE2E06926370 /* ReplaceMe.swift */; };
+		E8FB4D5ECFFF026A8494E7F9DCB234B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 589B2F259345BEA8CC58CC9E253C3B5E /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		217F6A410A509FBCD1F03253A184E534 /* PBXContainerItemProxy */ = {
+		3F70B764A97F59D5A467B4262845492F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 82E82EE8FEF9F86DD269F4B45E9E7821;
+			remoteGlobalIDString = C2FB7B9598919CB16A00DF4EEFB1E72D;
+			remoteInfo = mylogin;
+		};
+		47E85A7C1DBA80CD604B4DE438970FBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A749673A800082FA0D67138B0F0716D4;
 			remoteInfo = WinPodLibrary;
+		};
+		C7B54CDCE2B07C7F1B23B5F98D8F579F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2FB7B9598919CB16A00DF4EEFB1E72D;
+			remoteInfo = mylogin;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03756A3CE351C8A7A5C166E56CA1EE4F /* mylogin-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "mylogin-umbrella.h"; sourceTree = "<group>"; };
 		0702635EADCF9B4B9F93954641372956 /* WinPodLibrary.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WinPodLibrary.xcconfig; sourceTree = "<group>"; };
+		0B2B4CF1DE4BD414B990E04FBF8BAAC3 /* WinPodLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WinPodLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C19D47169E4CA17E7782A5597D160AB /* Pods-WinPodLibrary_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WinPodLibrary_Example-frameworks.sh"; sourceTree = "<group>"; };
-		146B4C37AC33185C5DA490DE26F9851E /* WinPodLibrary.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = WinPodLibrary.modulemap; sourceTree = "<group>"; };
+		146B4C37AC33185C5DA490DE26F9851E /* WinPodLibrary.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = WinPodLibrary.modulemap; sourceTree = "<group>"; };
 		167F85B1249FC085950719C26169B473 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19BBD14020A2555900C0DD86 /* EventService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventService.swift; sourceTree = "<group>"; };
 		2660CCFA7236633C295094868E257665 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		360DA08A6667B5B18806D8477446309E /* mylogin.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = mylogin.modulemap; sourceTree = "<group>"; };
 		489275AA6A634CBE96CA003251C8D71F /* WinPodLibrary-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WinPodLibrary-prefix.pch"; sourceTree = "<group>"; };
 		4904520986903CF8E42353773F2D913D /* Pods-WinPodLibrary_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WinPodLibrary_Tests-resources.sh"; sourceTree = "<group>"; };
+		589B2F259345BEA8CC58CC9E253C3B5E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5A360DFC1528BD48BABC695CCE732CC9 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = WinPodLibrary/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		5BE2ED0A827DBBD6B710E750D1B63F67 /* Pods_WinPodLibrary_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WinPodLibrary_Example.framework; path = "Pods-WinPodLibrary_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		653B429E89D970B4A75852AA914D84A7 /* Pods-WinPodLibrary_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WinPodLibrary_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6F1144CFAD4F61FE8BDA7B687394E1F4 /* mylogin.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = mylogin.xcconfig; sourceTree = "<group>"; };
 		7BDF8A38CC175E1CF9F280C830EA4FD6 /* WinPodLibrary-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WinPodLibrary-umbrella.h"; sourceTree = "<group>"; };
-		7D00D6B2A317B76392B43AFF2E2CE689 /* Pods_WinPodLibrary_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WinPodLibrary_Tests.framework; path = "Pods-WinPodLibrary_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C68706E87967B43D2C8C1610BE6EB99 /* mylogin-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "mylogin-prefix.pch"; sourceTree = "<group>"; };
 		7EE908F9086DFE0DD54FB40B4F6D1270 /* Pods-WinPodLibrary_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WinPodLibrary_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		87E8FBB9650FDFA95D1F088591D96198 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		895A2AEDAF9D3D01515C8D30BBA03DBB /* mylogin-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "mylogin-dummy.m"; sourceTree = "<group>"; };
+		8EDBBD87F4E23EE80BA7E69D210BD3F6 /* mylogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = mylogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F4C2128D9CF1A8F04395CC8CD5BF1AF /* Pods-WinPodLibrary_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WinPodLibrary_Example-umbrella.h"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9482D5DA58DCE08784264401591305E6 /* Pods-WinPodLibrary_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WinPodLibrary_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A129D58207842CC4A930EE2E06926370 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = mylogin/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		A22FC0083AECBBF00E8C39D20B92BFDD /* Pods-WinPodLibrary_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WinPodLibrary_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		AA0FDD52F4C7EBBEAE76FF06D6200A57 /* Pods-WinPodLibrary_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WinPodLibrary_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B1440CB437B36D39F6D9EB1EB1A10952 /* Pods-WinPodLibrary_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WinPodLibrary_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		C0E66FA08DF3043A980E88B51108DFA0 /* Pods-WinPodLibrary_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WinPodLibrary_Example-dummy.m"; sourceTree = "<group>"; };
-		CB76FBA17F19C2E200C7D150857A82B4 /* WinPodLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WinPodLibrary.framework; path = WinPodLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5723EB7C9EE647D85EC98615DF7B6CA /* mylogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = mylogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C58ED92CB404599970624C6FCA0E7C4C /* Pods_WinPodLibrary_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WinPodLibrary_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCF2B2DADC79C8248EE444868B3616A0 /* WinPodLibrary-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WinPodLibrary-dummy.m"; sourceTree = "<group>"; };
-		CDA7E4854E082A78D52F1A45C12EED4D /* Pods-WinPodLibrary_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-WinPodLibrary_Example.modulemap"; sourceTree = "<group>"; };
+		CDA7E4854E082A78D52F1A45C12EED4D /* Pods-WinPodLibrary_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-WinPodLibrary_Example.modulemap"; sourceTree = "<group>"; };
+		D1B9C954E6881A66293477BCD94F6238 /* Pods_WinPodLibrary_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WinPodLibrary_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D87635B19EC749CFB63751F91155617B /* Pods-WinPodLibrary_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WinPodLibrary_Example.release.xcconfig"; sourceTree = "<group>"; };
-		E3D62DFDD2D4F34421E5F6FE44E37B96 /* Pods-WinPodLibrary_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-WinPodLibrary_Tests.modulemap"; sourceTree = "<group>"; };
+		E3D62DFDD2D4F34421E5F6FE44E37B96 /* Pods-WinPodLibrary_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-WinPodLibrary_Tests.modulemap"; sourceTree = "<group>"; };
 		E8031D9C3183089ABE07AAF0DBE6997A /* Pods-WinPodLibrary_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WinPodLibrary_Tests-umbrella.h"; sourceTree = "<group>"; };
 		E88153D7E4F2A4BDCE55B2641D90525B /* Pods-WinPodLibrary_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WinPodLibrary_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F120A6B9C0E4BBF825E62CB117988E26 /* LoginService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoginService.swift; path = mylogin/Classes/LoginService.swift; sourceTree = "<group>"; };
 		F15DB8A9C0CBF67D66C5BD8059BB26EC /* Pods-WinPodLibrary_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WinPodLibrary_Example-resources.sh"; sourceTree = "<group>"; };
 		F58FA178F1F104D3FF8FEC2C95B43BF0 /* Pods-WinPodLibrary_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WinPodLibrary_Tests-dummy.m"; sourceTree = "<group>"; };
 		F6DC3EFF4464F109378E4BEC7A2422F3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -65,19 +97,20 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0D6F252ABFAD1C6D4C5137DFD5959F48 /* Frameworks */ = {
+		27E542FE65808D4AC0D88EEC57DA54AE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FD2ECB5877463697B53E1913AFB1759 /* Foundation.framework in Frameworks */,
+				E8FB4D5ECFFF026A8494E7F9DCB234B5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		37E9BA06E389DB7DCF11D68479A6FCD3 /* Frameworks */ = {
+		A379A7C9F24F811F5ACF53D356A97A4C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6419403E219EA07B242B8D9A8B8CB2A /* Foundation.framework in Frameworks */,
+				86A39B86A4648A54F49FD4D199B0C990 /* Foundation.framework in Frameworks */,
+				564AB091127350D32A786DA02858779B /* mylogin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,17 +122,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DDFA26E1FA4DEB77321407E19D512326 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3051E396DB118BBCEE3AED1F0A4075A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1A21C57636B3D5133A34D2E19229B112 /* Products */ = {
+		0250D22E9844098C79C6C65C2D653435 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5BE2ED0A827DBBD6B710E750D1B63F67 /* Pods_WinPodLibrary_Example.framework */,
-				7D00D6B2A317B76392B43AFF2E2CE689 /* Pods_WinPodLibrary_Tests.framework */,
-				CB76FBA17F19C2E200C7D150857A82B4 /* WinPodLibrary.framework */,
+				8EDBBD87F4E23EE80BA7E69D210BD3F6 /* mylogin.framework */,
+				DD93C1BDB17EAB901D23797110301865 /* iOS */,
 			);
-			name = Products;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		31091C5EA8DBE37E6C7E07116345EF4F /* Pods-WinPodLibrary_Tests */ = {
@@ -120,6 +160,14 @@
 			path = "Target Support Files/Pods-WinPodLibrary_Tests";
 			sourceTree = "<group>";
 		};
+		47759DB99970659E92EA68C2578E5A48 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BE4904FB5E5E10CD6683ED781BFD3278 /* mylogin */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		53E50BAD7BBFAB1635127EB02EF31E35 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -137,15 +185,41 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		755D4E1C8734BD5EE0EAC464BCA2D26E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				87E8FBB9650FDFA95D1F088591D96198 /* Info.plist */,
+				360DA08A6667B5B18806D8477446309E /* mylogin.modulemap */,
+				6F1144CFAD4F61FE8BDA7B687394E1F4 /* mylogin.xcconfig */,
+				895A2AEDAF9D3D01515C8D30BBA03DBB /* mylogin-dummy.m */,
+				7C68706E87967B43D2C8C1610BE6EB99 /* mylogin-prefix.pch */,
+				03756A3CE351C8A7A5C166E56CA1EE4F /* mylogin-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/mylogin";
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				53E50BAD7BBFAB1635127EB02EF31E35 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				1A21C57636B3D5133A34D2E19229B112 /* Products */,
+				0250D22E9844098C79C6C65C2D653435 /* Frameworks */,
+				47759DB99970659E92EA68C2578E5A48 /* Pods */,
+				7F50F016E5D0F4F2A502AC5CBC52B196 /* Products */,
 				5887FB0064999F1FE123694F5921C049 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		7F50F016E5D0F4F2A502AC5CBC52B196 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5723EB7C9EE647D85EC98615DF7B6CA /* mylogin.framework */,
+				D1B9C954E6881A66293477BCD94F6238 /* Pods_WinPodLibrary_Example.framework */,
+				C58ED92CB404599970624C6FCA0E7C4C /* Pods_WinPodLibrary_Tests.framework */,
+				0B2B4CF1DE4BD414B990E04FBF8BAAC3 /* WinPodLibrary.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		9D3C4052B5750DA8A06BBB541089A609 /* Pods-WinPodLibrary_Example */ = {
@@ -185,23 +259,26 @@
 			children = (
 				5A360DFC1528BD48BABC695CCE732CC9 /* ReplaceMe.swift */,
 				A87376C51920E33A6ACC8348C8BF83EE /* Support Files */,
+				19BBD14020A2555900C0DD86 /* EventService.swift */,
 			);
 			name = WinPodLibrary;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		BE4904FB5E5E10CD6683ED781BFD3278 /* mylogin */ = {
 			isa = PBXGroup;
 			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+				F120A6B9C0E4BBF825E62CB117988E26 /* LoginService.swift */,
+				A129D58207842CC4A930EE2E06926370 /* ReplaceMe.swift */,
+				755D4E1C8734BD5EE0EAC464BCA2D26E /* Support Files */,
 			);
-			name = Frameworks;
+			path = mylogin;
 			sourceTree = "<group>";
 		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+		DD93C1BDB17EAB901D23797110301865 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+				589B2F259345BEA8CC58CC9E253C3B5E /* Foundation.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
@@ -209,11 +286,11 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		12F13AA4EBBA90716D2E56B9F461E497 /* Headers */ = {
+		11BB79223F91462C1AEE9933DA3304F0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39D2C62178FC7FA49699916CDE4FBA3E /* Pods-WinPodLibrary_Example-umbrella.h in Headers */,
+				6CED0017225F81CDB5E3607E748D3AF7 /* Pods-WinPodLibrary_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,50 +302,77 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		756470D03B7E25C837AB9E6EFB789C5D /* Headers */ = {
+		945CA0366A1A104E69EDF72F377236A6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6AC7918B46CAD5CE53BFB038704B12B5 /* WinPodLibrary-umbrella.h in Headers */,
+				1C1C9B626A570BA37C51164B38CFE0F0 /* WinPodLibrary-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2F34D2AFFB90A7C4B28505C38518B72 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAA749546256007AD5024EC1127739DD /* mylogin-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		82E82EE8FEF9F86DD269F4B45E9E7821 /* WinPodLibrary */ = {
+		A749673A800082FA0D67138B0F0716D4 /* WinPodLibrary */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4BCA938D22A02ED35DD0B918DB2F3773 /* Build configuration list for PBXNativeTarget "WinPodLibrary" */;
+			buildConfigurationList = 5EA9AD0A365CB65B8B0DDDFC159CB3D0 /* Build configuration list for PBXNativeTarget "WinPodLibrary" */;
 			buildPhases = (
-				AEAFDF27B82729B6B98755682E5D3C67 /* Sources */,
-				37E9BA06E389DB7DCF11D68479A6FCD3 /* Frameworks */,
-				756470D03B7E25C837AB9E6EFB789C5D /* Headers */,
+				B4BCA985AD27D2AFAD45696D0583563B /* Sources */,
+				A379A7C9F24F811F5ACF53D356A97A4C /* Frameworks */,
+				945CA0366A1A104E69EDF72F377236A6 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				47F5A1ABC8BCDF063B225A67CBDC92F4 /* PBXTargetDependency */,
 			);
 			name = WinPodLibrary;
 			productName = WinPodLibrary;
-			productReference = CB76FBA17F19C2E200C7D150857A82B4 /* WinPodLibrary.framework */;
+			productReference = 0B2B4CF1DE4BD414B990E04FBF8BAAC3 /* WinPodLibrary.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		B33ABA32B76DA834FFAEF0EAF66E97D7 /* Pods-WinPodLibrary_Example */ = {
+		B6D6C16051579A2C02233F35841311B6 /* Pods-WinPodLibrary_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C11B374BAA34A16DD3B6E6746E30AD2A /* Build configuration list for PBXNativeTarget "Pods-WinPodLibrary_Example" */;
+			buildConfigurationList = D9DDCB8B009326898FCE14706DECD98F /* Build configuration list for PBXNativeTarget "Pods-WinPodLibrary_Example" */;
 			buildPhases = (
-				F9C6A3E7BC8150C558824202579EE805 /* Sources */,
-				0D6F252ABFAD1C6D4C5137DFD5959F48 /* Frameworks */,
-				12F13AA4EBBA90716D2E56B9F461E497 /* Headers */,
+				50233506A3A682A4D648B5FC62B75D72 /* Sources */,
+				27E542FE65808D4AC0D88EEC57DA54AE /* Frameworks */,
+				11BB79223F91462C1AEE9933DA3304F0 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				AF8A6252C4DF636CEA2525CE3F56FF9D /* PBXTargetDependency */,
+				BCDD97368AD2107B19BD3A2BDADE5027 /* PBXTargetDependency */,
+				7713DB2D7D4385DA27686757838EBEDE /* PBXTargetDependency */,
 			);
 			name = "Pods-WinPodLibrary_Example";
 			productName = "Pods-WinPodLibrary_Example";
-			productReference = 5BE2ED0A827DBBD6B710E750D1B63F67 /* Pods_WinPodLibrary_Example.framework */;
+			productReference = D1B9C954E6881A66293477BCD94F6238 /* Pods_WinPodLibrary_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C2FB7B9598919CB16A00DF4EEFB1E72D /* mylogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EC279F057532E1F809010D717E45D66 /* Build configuration list for PBXNativeTarget "mylogin" */;
+			buildPhases = (
+				4D09A1F892CFD320A3F86333C6C97F88 /* Sources */,
+				DDFA26E1FA4DEB77321407E19D512326 /* Frameworks */,
+				D2F34D2AFFB90A7C4B28505C38518B72 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mylogin;
+			productName = mylogin;
+			productReference = C5723EB7C9EE647D85EC98615DF7B6CA /* mylogin.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		DC98180C02CA76E8375B739564CA9374 /* Pods-WinPodLibrary_Tests */ = {
@@ -285,7 +389,7 @@
 			);
 			name = "Pods-WinPodLibrary_Tests";
 			productName = "Pods-WinPodLibrary_Tests";
-			productReference = 7D00D6B2A317B76392B43AFF2E2CE689 /* Pods_WinPodLibrary_Tests.framework */;
+			productReference = C58ED92CB404599970624C6FCA0E7C4C /* Pods_WinPodLibrary_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -305,18 +409,38 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 1A21C57636B3D5133A34D2E19229B112 /* Products */;
+			productRefGroup = 7F50F016E5D0F4F2A502AC5CBC52B196 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B33ABA32B76DA834FFAEF0EAF66E97D7 /* Pods-WinPodLibrary_Example */,
+				C2FB7B9598919CB16A00DF4EEFB1E72D /* mylogin */,
+				B6D6C16051579A2C02233F35841311B6 /* Pods-WinPodLibrary_Example */,
 				DC98180C02CA76E8375B739564CA9374 /* Pods-WinPodLibrary_Tests */,
-				82E82EE8FEF9F86DD269F4B45E9E7821 /* WinPodLibrary */,
+				A749673A800082FA0D67138B0F0716D4 /* WinPodLibrary */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		4D09A1F892CFD320A3F86333C6C97F88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19BBD14120A2555900C0DD86 /* EventService.swift in Sources */,
+				1DFAC38FFA1C49AE77E82ECE34BDBAF0 /* LoginService.swift in Sources */,
+				A8ED818BD34221B9F528BD16FF3595BD /* mylogin-dummy.m in Sources */,
+				E5915D1C6137238FEBD807DE3ADA5786 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50233506A3A682A4D648B5FC62B75D72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9A387E93A0BA7A62480C7F52D1A4E8A /* Pods-WinPodLibrary_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6AE5CB65F60EF9CC0D9B20ACF9943AD3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -325,35 +449,102 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AEAFDF27B82729B6B98755682E5D3C67 /* Sources */ = {
+		B4BCA985AD27D2AFAD45696D0583563B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B6D95C574BF351FB81E8E19B4FC3EE4 /* ReplaceMe.swift in Sources */,
-				05981DEB235CE73DB971C4EC6B39E65D /* WinPodLibrary-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F9C6A3E7BC8150C558824202579EE805 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E9D879A9A830FAB7DCF19939F544AAC7 /* Pods-WinPodLibrary_Example-dummy.m in Sources */,
+				BB0868C2F53E435A1B13A21C4B121174 /* ReplaceMe.swift in Sources */,
+				8D79C62804F340927B7279EB19EDB9A6 /* WinPodLibrary-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		AF8A6252C4DF636CEA2525CE3F56FF9D /* PBXTargetDependency */ = {
+		47F5A1ABC8BCDF063B225A67CBDC92F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = mylogin;
+			target = C2FB7B9598919CB16A00DF4EEFB1E72D /* mylogin */;
+			targetProxy = 3F70B764A97F59D5A467B4262845492F /* PBXContainerItemProxy */;
+		};
+		7713DB2D7D4385DA27686757838EBEDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = mylogin;
+			target = C2FB7B9598919CB16A00DF4EEFB1E72D /* mylogin */;
+			targetProxy = C7B54CDCE2B07C7F1B23B5F98D8F579F /* PBXContainerItemProxy */;
+		};
+		BCDD97368AD2107B19BD3A2BDADE5027 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = WinPodLibrary;
-			target = 82E82EE8FEF9F86DD269F4B45E9E7821 /* WinPodLibrary */;
-			targetProxy = 217F6A410A509FBCD1F03253A184E534 /* PBXContainerItemProxy */;
+			target = A749673A800082FA0D67138B0F0716D4 /* WinPodLibrary */;
+			targetProxy = 47E85A7C1DBA80CD604B4DE438970FBD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		147083AA63AD75032AEE0659512135BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0702635EADCF9B4B9F93954641372956 /* WinPodLibrary.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WinPodLibrary/WinPodLibrary-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WinPodLibrary/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WinPodLibrary/WinPodLibrary.modulemap";
+				PRODUCT_NAME = WinPodLibrary;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2426DDEE06A10DD0FA77F330F115ACF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F1144CFAD4F61FE8BDA7B687394E1F4 /* mylogin.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/mylogin/mylogin-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/mylogin/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/mylogin/mylogin.modulemap";
+				PRODUCT_NAME = mylogin;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -414,6 +605,72 @@
 			};
 			name = Debug;
 		};
+		4835488B5A7AD0DA4898ED12D65A23C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F1144CFAD4F61FE8BDA7B687394E1F4 /* mylogin.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/mylogin/mylogin-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/mylogin/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/mylogin/mylogin.modulemap";
+				PRODUCT_NAME = mylogin;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4B902B40E5A30AD0D74A43028814F4A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D87635B19EC749CFB63751F91155617B /* Pods-WinPodLibrary_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WinPodLibrary_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WinPodLibrary_Example/Pods-WinPodLibrary_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WinPodLibrary_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		5404726EDF57B610187FCDF2A6979BF1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E88153D7E4F2A4BDCE55B2641D90525B /* Pods-WinPodLibrary_Tests.debug.xcconfig */;
@@ -440,6 +697,40 @@
 				PRODUCT_NAME = Pods_WinPodLibrary_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5EB58BFF3AB71FF9F9DABC2527C73EDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A22FC0083AECBBF00E8C39D20B92BFDD /* Pods-WinPodLibrary_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WinPodLibrary_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WinPodLibrary_Example/Pods-WinPodLibrary_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WinPodLibrary_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -501,7 +792,7 @@
 			};
 			name = Release;
 		};
-		786F040E056E7D58A45C596461482F53 /* Debug */ = {
+		B9B753F6657442B75B28697F1F18745A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0702635EADCF9B4B9F93954641372956 /* WinPodLibrary.xcconfig */;
 			buildSettings = {
@@ -531,106 +822,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		7E5886745533A376AAE2AA42B9355B9A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A22FC0083AECBBF00E8C39D20B92BFDD /* Pods-WinPodLibrary_Example.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-WinPodLibrary_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-WinPodLibrary_Example/Pods-WinPodLibrary_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_WinPodLibrary_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		C1AD88C45814DBA7FCD0B34D70A9511C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D87635B19EC749CFB63751F91155617B /* Pods-WinPodLibrary_Example.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-WinPodLibrary_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-WinPodLibrary_Example/Pods-WinPodLibrary_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_WinPodLibrary_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		D0668A775C50F484F2FFBBFA55486C64 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0702635EADCF9B4B9F93954641372956 /* WinPodLibrary.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/WinPodLibrary/WinPodLibrary-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/WinPodLibrary/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/WinPodLibrary/WinPodLibrary.modulemap";
-				PRODUCT_NAME = WinPodLibrary;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		E8E18180F7780348101CCAA179D3B28F /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -686,20 +877,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4BCA938D22A02ED35DD0B918DB2F3773 /* Build configuration list for PBXNativeTarget "WinPodLibrary" */ = {
+		5EA9AD0A365CB65B8B0DDDFC159CB3D0 /* Build configuration list for PBXNativeTarget "WinPodLibrary" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				786F040E056E7D58A45C596461482F53 /* Debug */,
-				D0668A775C50F484F2FFBBFA55486C64 /* Release */,
+				B9B753F6657442B75B28697F1F18745A /* Debug */,
+				147083AA63AD75032AEE0659512135BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C11B374BAA34A16DD3B6E6746E30AD2A /* Build configuration list for PBXNativeTarget "Pods-WinPodLibrary_Example" */ = {
+		6EC279F057532E1F809010D717E45D66 /* Build configuration list for PBXNativeTarget "mylogin" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7E5886745533A376AAE2AA42B9355B9A /* Debug */,
-				C1AD88C45814DBA7FCD0B34D70A9511C /* Release */,
+				2426DDEE06A10DD0FA77F330F115ACF8 /* Debug */,
+				4835488B5A7AD0DA4898ED12D65A23C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9DDCB8B009326898FCE14706DECD98F /* Build configuration list for PBXNativeTarget "Pods-WinPodLibrary_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EB58BFF3AB71FF9F9DABC2527C73EDE /* Debug */,
+				4B902B40E5A30AD0D74A43028814F4A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
