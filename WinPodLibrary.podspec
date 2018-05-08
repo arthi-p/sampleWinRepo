@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WinPodLibrary'
-  s.version          = '0.1.0'
+  s.version          = '1.1.0'
   s.summary          = 'A part of a project collection.'
 
 # This description is used to generate tags and improve search results.
