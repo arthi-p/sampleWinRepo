@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WinPodLibrary'
-  s.version          = '2.0.0'
+  s.version          = '2.1.0'
   s.summary          = 'A part of a project collection.'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'WinPodLibrary/Classes/**/*'
+  s.source_files = 'WinPodLibrary/Classes/*.swift'
   
   # s.resource_bundles = {
   #   'WinPodLibrary' => ['WinPodLibrary/Assets/*.png']
