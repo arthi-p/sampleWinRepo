@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		15B4E838ED55172E81EF042D43A85788 /* Pods-WinPodLibrary_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E8031D9C3183089ABE07AAF0DBE6997A /* Pods-WinPodLibrary_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		19BBD14120A2555900C0DD86 /* EventService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BBD14020A2555900C0DD86 /* EventService.swift */; };
+		19BBD14320A285F000C0DD86 /* EventService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BBD14220A285F000C0DD86 /* EventService.swift */; };
 		1C1C9B626A570BA37C51164B38CFE0F0 /* WinPodLibrary-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BDF8A38CC175E1CF9F280C830EA4FD6 /* WinPodLibrary-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1DFAC38FFA1C49AE77E82ECE34BDBAF0 /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F120A6B9C0E4BBF825E62CB117988E26 /* LoginService.swift */; };
 		28D06BA405BFFFD896E98EAA781F70F1 /* Pods-WinPodLibrary_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F58FA178F1F104D3FF8FEC2C95B43BF0 /* Pods-WinPodLibrary_Tests-dummy.m */; };
@@ -57,7 +57,7 @@
 		0C19D47169E4CA17E7782A5597D160AB /* Pods-WinPodLibrary_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WinPodLibrary_Example-frameworks.sh"; sourceTree = "<group>"; };
 		146B4C37AC33185C5DA490DE26F9851E /* WinPodLibrary.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = WinPodLibrary.modulemap; sourceTree = "<group>"; };
 		167F85B1249FC085950719C26169B473 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		19BBD14020A2555900C0DD86 /* EventService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventService.swift; sourceTree = "<group>"; };
+		19BBD14220A285F000C0DD86 /* EventService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EventService.swift; path = WinPodLibrary/Classes/EventService.swift; sourceTree = "<group>"; };
 		2660CCFA7236633C295094868E257665 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		360DA08A6667B5B18806D8477446309E /* mylogin.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = mylogin.modulemap; sourceTree = "<group>"; };
 		489275AA6A634CBE96CA003251C8D71F /* WinPodLibrary-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WinPodLibrary-prefix.pch"; sourceTree = "<group>"; };
@@ -257,9 +257,9 @@
 		B94038ABD27378F7DF199B66C67A3236 /* WinPodLibrary */ = {
 			isa = PBXGroup;
 			children = (
+				19BBD14220A285F000C0DD86 /* EventService.swift */,
 				5A360DFC1528BD48BABC695CCE732CC9 /* ReplaceMe.swift */,
 				A87376C51920E33A6ACC8348C8BF83EE /* Support Files */,
-				19BBD14020A2555900C0DD86 /* EventService.swift */,
 			);
 			name = WinPodLibrary;
 			path = ../..;
@@ -426,7 +426,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19BBD14120A2555900C0DD86 /* EventService.swift in Sources */,
+				19BBD14320A285F000C0DD86 /* EventService.swift in Sources */,
 				1DFAC38FFA1C49AE77E82ECE34BDBAF0 /* LoginService.swift in Sources */,
 				A8ED818BD34221B9F528BD16FF3595BD /* mylogin-dummy.m in Sources */,
 				E5915D1C6137238FEBD807DE3ADA5786 /* ReplaceMe.swift in Sources */,
